@@ -35,7 +35,9 @@ Similar results were observed for year 2018 data analysis as well.
 !["time for year 2018 before refactoring"](./resources/VBA_Challenge_2018_old.png "before refactoring")
 !["time for year 2018 after refactoring"](./resources/VBA_Challenge_2018.png "after refactoring")
 
-Refactoring of the code not only helps in improving performace, it also helps in readability and maintainability of the code. With properly named variables it is easier for someone to understand the code in future. 
+### Refactoring code
+Refactoring of the code not only helps in improving performace, it also helps in readability and maintainability of the code. With properly named variables it is easier for someone to understand the code in future. The drawbacks I see in refactoring code are, it is very time consuming, and also there is a chance of introducing new bugs.
 
+### Refactoring this project's code
 For the given code refactoring helped in improving the total time it took to analyze the code as follows. Before refactoring, we were looping through the whole data set for each ticker and that is going through the whole dataset 12 times. However after refactoring the code, we were going through the whole dataset just once and that is definitely better and faster. 
 
